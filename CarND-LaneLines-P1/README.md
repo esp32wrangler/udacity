@@ -34,4 +34,4 @@ Overall it is an interesting experiment that helped me to learn a lot of the bas
 
 Depending on how the output of the algorithm will be used, it may improve results if temporal (inter-frame) interpolation is added. This would also offer the possibility of hiding transient detection issues by simply dropping the problematic frame and interpolating from the previous frame(s). Obviously it would cause temporal jitter/delay in the output.
 
-The challenge puzzle a the end of the notebook with the sharp turn is indeed way outside of the parameters of this algorithm, and solving it would probably require a slightly different approach (curve interpolation instead of linear, for a start).
+The challenge puzzle at the end of the notebook with the sharp turn is indeed way outside of the parameters of this algorithm, and solving it would probably require a slightly different approach (curve interpolation instead of linear, for a start).
